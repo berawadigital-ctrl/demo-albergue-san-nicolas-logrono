@@ -1,0 +1,46 @@
+{
+ "schema": "berawa-sources/1",
+ "site": "https://alberguesannicolas.es/",
+ "read_at": "2026-10-30T09:08:00+01:00",
+ "method": "Texto visible de cada pagina leido de la web publica del negocio en la fecha indicada (fetch_sources.py) y guardado en berawa/evidence/source-text.json; las citas del chatbot se comprueban contra ese texto con check_kb.py.",
+ "pages": [
+  {
+   "url": "https://alberguesannicolas.es/",
+   "sha256": "e742b0b3d590e9144be0d375b9aa86528ce808728916f7ff1710248af76e5a2a",
+   "chars": 5489
+  },
+  {
+   "url": "https://alberguesannicolas.es/contacto/",
+   "sha256": "28ed73efad2e2d9910ab3cfb9632c67c44dda1e488b7754d6e90af4d42d38263",
+   "chars": 1767
+  },
+  {
+   "url": "https://alberguesannicolas.es/el-albergue/",
+   "sha256": "ecf5b0dba6e07ca119986c03fb8cb7259dcaa345321c15a3a598907d3dbd7a9d",
+   "chars": 2635
+  },
+  {
+   "url": "https://alberguesannicolas.es/entorno/",
+   "sha256": "f0a7fa112bdc76a10362e37d2bab5264122bbc577280e74cc2ff94ad6c4d92c1",
+   "chars": 3648
+  },
+  {
+   "url": "https://alberguesannicolas.es/normas/",
+   "sha256": "240b648333fd51e61069e9908b1990c8cce76814ea1598e3cd0c7f2f500bdd68",
+   "chars": 3778
+  }
+ ],
+ "other_pages_read": [
+  "https://alberguesannicolas.es/aviso-legal/",
+  "https://alberguesannicolas.es/en/contact/",
+  "https://alberguesannicolas.es/en/cookies-policy/",
+  "https://alberguesannicolas.es/en/environment/",
+  "https://alberguesannicolas.es/en/legal-notice/",
+  "https://alberguesannicolas.es/en/privacy-policy/",
+  "https://alberguesannicolas.es/en/rules/",
+  "https://alberguesannicolas.es/en/san-nicolas-pilgrim-hostel-logrono-camino-de-santiago/",
+  "https://alberguesannicolas.es/en/the-hostel/",
+  "https://alberguesannicolas.es/politica-de-cookies/",
+  "https://alberguesannicolas.es/politica-privacidad/"
+ ]
+}

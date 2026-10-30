@@ -1,0 +1,372 @@
+{
+ "url": "file:///tmp/clon-albergue-san-nicolas-logrono/repo/index.html",
+ "langs": {
+  "es": {
+   "textos_iguales_al_es": [],
+   "chat": [
+    {
+     "q": "¿Qué habitaciones tenéis?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Hay tres: San Mateo, la principal, con espacio para 14 personas en camas cerradas con cortina; San Bernabé, privada con 2 literas (máximo 4 "
+    },
+    {
+     "q": "¿Cuánto cuesta la noche?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Según su web (leída el 30/10/2026), las tarifas publicadas son 24 € la noche en la habitación San Mateo y 25 € la noche en la habitación San"
+    },
+    {
+     "q": "¿A qué hora abrís?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "El albergue abre a las 13:00 y cierra a las 22:00. Si llegas más tarde, avisa con antelación."
+    },
+    {
+     "q": "¿Hay wifi?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Sí: wifi gratis, cocina comedor equipada (frigorífico, microondas, cafetera, tostadora), lavadora-secadora, calefacción, aire acondicionado,"
+    },
+    {
+     "q": "¿Necesito credencial?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "No es obligatoria: el albergue recibe tanto a peregrinos con credencial como a viajeros que quieran conocer Logroño."
+    },
+    {
+     "q": "¿Se puede fumar?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "No se permite fumar dentro del albergue (hay zonas designadas fuera). Desde las 22:00 se pide silencio, no se puede comer ni beber en las ca"
+    },
+    {
+     "q": "¿Dónde está el albergue?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Está en la Calle San Nicolás 102, 26003 Logroño: la calle Marqués de San Nicolás, conocida como Calle Mayor, en pleno casco histórico y a po"
+    },
+    {
+     "q": "¿Admitís mascotas?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Las mascotas no están permitidas en el albergue, salvo que se indique lo contrario."
+    },
+    {
+     "q": "¿Cómo reservo?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Puedes reservar en su motor de reservas (botón Reservar), escribir a reservas@alberguesannicolas.es o llamar al +34 608 184 728. Recomiendan"
+    },
+    {
+     "q": "¿Podéis confirmarme disponibilidad para mañana?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Puedes reservar en su motor de reservas (botón Reservar), escribir a reservas@alberguesannicolas.es o llamar al +34 608 184 728. Recomiendan"
+    },
+    {
+     "q": "¿Hay bares de tapas cerca?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Muy cerca, la calle Laurel y la calle San Juan ofrecen una de las mejores rutas de tapas de España, con pinchos clásicos y modernos, además "
+    },
+    {
+     "q": "¿Tenéis piscina?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 608 184 728 · +34 941 056 631 · reservas@alberguesannicolas.es."
+    },
+    {
+     "q": "¿Hay gimnasio?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 608 184 728 · +34 941 056 631 · reservas@alberguesannicolas.es."
+    }
+   ],
+   "chips": [
+    "¿Qué habitaciones tenéis?",
+    "¿Cuánto cuesta la noche?",
+    "¿A qué hora abrís?",
+    "¿Cómo reservo?"
+   ]
+  },
+  "en": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Which rooms do you have?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "There are three: San Mateo, the main room, with space for 14 people in enclosed beds with curtains; San Bernabé, private with 2 bunk beds (u"
+    },
+    {
+     "q": "How much is a night?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "According to their website (read on 30/10/2026), the published rates are 24 € a night in the San Mateo room and 25 € a night in the Santiago"
+    },
+    {
+     "q": "What time do you open?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "The hostel opens at 13:00 and closes at 22:00. If you arrive later, please let them know in advance."
+    },
+    {
+     "q": "Is there wifi?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Yes: free wifi, equipped kitchen-dining room (fridge, microwave, coffee maker, toaster), washer-dryer, heating, air conditioning, individual"
+    },
+    {
+     "q": "Do I need a credential?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "It is not required: the hostel welcomes both pilgrims with a credential and travellers who want to discover Logroño."
+    },
+    {
+     "q": "Can I smoke?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Smoking is not allowed inside the hostel (there are designated areas outside). Silence is requested from 22:00, eating and drinking on the b"
+    },
+    {
+     "q": "Where is the hostel?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "It is at Calle San Nicolás 102, 26003 Logroño: Marqués de San Nicolás street, known as Calle Mayor, in the old town and a few metres from th"
+    },
+    {
+     "q": "Do you accept pets?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Pets are not allowed in the hostel unless stated otherwise."
+    },
+    {
+     "q": "How do I book?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "You can book in their booking engine (Book button), write to reservas@alberguesannicolas.es or call +34 608 184 728. They recommend booking "
+    },
+    {
+     "q": "Can you confirm availability for tomorrow?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "You can book in their booking engine (Book button), write to reservas@alberguesannicolas.es or call +34 608 184 728. They recommend booking "
+    },
+    {
+     "q": "Are there tapas bars nearby?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Very close by, Laurel and San Juan streets offer one of the best tapas routes in Spain, with classic and modern pintxos, plus grill houses a"
+    },
+    {
+     "q": "Do you have a swimming pool?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 608 184 728 · +34 941 056 631 · reservas@alberguesannicolas.es."
+    },
+    {
+     "q": "Is there a gym?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 608 184 728 · +34 941 056 631 · reservas@alberguesannicolas.es."
+    }
+   ],
+   "chips": [
+    "Which rooms do you have?",
+    "How much is a night?",
+    "What time do you open?",
+    "How do I book?"
+   ]
+  },
+  "fr": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Quelles chambres avez-vous ?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Il y en a trois : San Mateo, la principale, pour 14 personnes en lits fermés avec rideau ; San Bernabé, privée avec 2 lits superposés (4 per"
+    },
+    {
+     "q": "Combien coûte une nuit ?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Selon leur site (consulté le 30/10/2026), les tarifs publiés sont de 24 € la nuit dans la chambre San Mateo et 25 € la nuit dans la chambre "
+    },
+    {
+     "q": "À quelle heure ouvrez-vous ?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Le gîte ouvre à 13:00 et ferme à 22:00. Si vous arrivez plus tard, prévenez à l’avance."
+    },
+    {
+     "q": "Y a-t-il le wifi ?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Oui : wifi gratuit, cuisine-salle à manger équipée (réfrigérateur, micro-ondes, cafetière, grille-pain), lave-linge séchant, chauffage, clim"
+    },
+    {
+     "q": "Faut-il la credencial ?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Elle n’est pas obligatoire : le gîte accueille aussi bien les pèlerins avec credencial que les voyageurs qui veulent découvrir Logroño."
+    },
+    {
+     "q": "Peut-on fumer ?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Il est interdit de fumer à l’intérieur (des zones sont prévues dehors). Silence à partir de 22:00, interdiction de manger et boire sur les l"
+    },
+    {
+     "q": "Où se trouve le gîte ?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Il se trouve Calle San Nicolás 102, 26003 Logroño : la rue Marqués de San Nicolás, dite Calle Mayor, en plein centre historique et à quelque"
+    },
+    {
+     "q": "Acceptez-vous les animaux ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Les animaux ne sont pas admis au gîte, sauf indication contraire."
+    },
+    {
+     "q": "Comment réserver ?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver dans leur moteur de réservation (bouton Réserver), écrire à reservas@alberguesannicolas.es ou appeler le +34 608 184 72"
+    },
+    {
+     "q": "Pouvez-vous me confirmer la disponibilité pour demain ?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver dans leur moteur de réservation (bouton Réserver), écrire à reservas@alberguesannicolas.es ou appeler le +34 608 184 72"
+    },
+    {
+     "q": "Y a-t-il des bars à tapas ?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Tout près, les rues Laurel et San Juan offrent l’une des meilleures routes de tapas d’Espagne, avec pintxos classiques et modernes, ainsi qu"
+    },
+    {
+     "q": "Avez-vous une piscine ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 608 184 728 · +34 941 056 631 · reservas@alberguesannicolas.es."
+    },
+    {
+     "q": "Y a-t-il une salle de sport ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 608 184 728 · +34 941 056 631 · reservas@alberguesannicolas.es."
+    }
+   ],
+   "chips": [
+    "Quelles chambres avez-vous ?",
+    "Combien coûte une nuit ?",
+    "À quelle heure ouvrez-vous ?",
+    "Comment réserver ?"
+   ]
+  },
+  "de": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Welche Zimmer gibt es?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Es gibt drei: San Mateo, das Hauptzimmer, mit Platz für 14 Personen in geschlossenen Betten mit Vorhang; San Bernabé, privat mit 2 Etagenbet"
+    },
+    {
+     "q": "Was kostet eine Nacht?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Laut Website (abgerufen am 30/10/2026) kostet die Nacht im Zimmer San Mateo 24 € und im Zimmer Santiago 25 €; bitte bei der Buchung bestätig"
+    },
+    {
+     "q": "Wann öffnen Sie?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Die Herberge öffnet um 13:00 und schließt um 22:00 Uhr. Wenn Sie später ankommen, geben Sie bitte vorher Bescheid."
+    },
+    {
+     "q": "Gibt es WLAN?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Ja: kostenloses WLAN, ausgestattete Küche mit Essbereich (Kühlschrank, Mikrowelle, Kaffeemaschine, Toaster), Waschtrockner, Heizung, Klimaan"
+    },
+    {
+     "q": "Brauche ich eine Credencial?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Sie ist nicht nötig: Die Herberge nimmt Pilger mit Credencial ebenso auf wie Reisende, die Logroño kennenlernen möchten."
+    },
+    {
+     "q": "Darf man rauchen?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Rauchen ist im Haus nicht erlaubt (es gibt Raucherbereiche draußen). Ab 22:00 Uhr gilt Nachtruhe, Essen und Trinken in den Betten ist verbot"
+    },
+    {
+     "q": "Wo liegt die Herberge?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Sie liegt in der Calle San Nicolás 102, 26003 Logroño: der Straße Marqués de San Nicolás, bekannt als Calle Mayor, mitten in der Altstadt un"
+    },
+    {
+     "q": "Sind Haustiere erlaubt?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Haustiere sind in der Herberge nicht erlaubt, sofern nicht anders angegeben."
+    },
+    {
+     "q": "Wie kann ich buchen?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Sie können über die Buchungsmaschine (Schaltfläche Buchen) buchen, an reservas@alberguesannicolas.es schreiben oder +34 608 184 728 anrufen."
+    },
+    {
+     "q": "Können Sie mir die Verfügbarkeit für morgen bestätigen?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Sie können über die Buchungsmaschine (Schaltfläche Buchen) buchen, an reservas@alberguesannicolas.es schreiben oder +34 608 184 728 anrufen."
+    },
+    {
+     "q": "Gibt es Tapas-Bars in der Nähe?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Ganz in der Nähe bieten die Straßen Laurel und San Juan eine der besten Tapas-Routen Spaniens mit klassischen und modernen Pintxos sowie Gri"
+    },
+    {
+     "q": "Haben Sie ein Schwimmbad?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Diese Information liegt mir nicht vor. Schreiben oder rufen Sie uns an: +34 608 184 728 · +34 941 056 631 · reservas@alberguesannicolas.es."
+    },
+    {
+     "q": "Gibt es ein Fitnessstudio?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Diese Information liegt mir nicht vor. Schreiben oder rufen Sie uns an: +34 608 184 728 · +34 941 056 631 · reservas@alberguesannicolas.es."
+    }
+   ],
+   "chips": [
+    "Welche Zimmer gibt es?",
+    "Was kostet eine Nacht?",
+    "Wann öffnen Sie?",
+    "Wie kann ich buchen?"
+   ]
+  }
+ },
+ "fail": [],
+ "ok": true
+}
